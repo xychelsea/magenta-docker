@@ -33,7 +33,7 @@ REQUIRED_PACKAGES = [
     'note-seq',
     'pretty_midi >= 0.2.6',
     'python-rtmidi >= 1.1, < 1.2',  # 1.2 breaks us
-    'tensorflow == 2.3.0',
+    'tensorflow >= 2.3.0',
     'tensor2tensor',
 # These packages were successfully installed through conda-forge
 #    'absl-py',
