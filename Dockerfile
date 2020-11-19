@@ -14,7 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-FROM xychelsea/tensorflow:latest
+FROM xychelsea/tensorflow:v0.1.2
 LABEL description="Magenta Vanilla Container"
 
 # $ docker build -t xychelsea/magenta:latest -f Dockerfile .
