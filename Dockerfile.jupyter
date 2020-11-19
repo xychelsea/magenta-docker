@@ -14,7 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-FROM xychelsea/tensorflow:latest-jupyter
+FROM xychelsea/tensorflow:v0.1.2-jupyter
 LABEL description="Magenta Vanilla Container w/ Jupyter Notebooks"
 
 # $ docker build -t xychelsea/magenta:latest-jupyter -f Dockerfile.jupyter .
